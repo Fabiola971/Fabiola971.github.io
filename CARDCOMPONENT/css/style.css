@@ -104,7 +104,7 @@
       right: 5px;
     }
 
-    @media (min-width: 510px){
+    @media (min-width: 1440px){
       .picture{
         background: url(../images/image-product-desktop.jpg);
         background-size: 100%;
