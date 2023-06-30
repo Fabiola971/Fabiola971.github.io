@@ -28,7 +28,6 @@
       width: 270px; 
       background-color: hsl(0, 0%, 100%); 
       border-radius: 5px; 
-      
       position: absolute;
       transform: translate(-50%, -50%);
       top: 50%; 
@@ -36,7 +35,7 @@
     }
 
     .picture{
-      background: url(images/image-product-mobile.jpg)no-repeat;
+      background: url(./images/image-product-mobile.jpg)no-repeat;
       background-size: 100%;
       background-position: center;
       height:190px; 
@@ -54,6 +53,8 @@
       padding: 10px 10px 15px;
       background-color: hsl(158, 36%, 37%);
       border: none;
+      color: white;
+      cursor: pointer;
     }
 
     .description h2{
@@ -117,9 +118,8 @@
     }
 
     @media (min-width: 1440px){
-
       .picture{
-        background: url(images/image-product-desktop.jpg)no-repeat;
+        background: url(./images/image-product-desktop.jpg)no-repeat;
         background-size: 100%;
         background-position: 100%;
         height: 368px;
@@ -161,40 +161,30 @@
         position: relative;
         left: -30px;
       }
-      
+    
     }
   </style>
 
 </head>
 <body>
-
-  <!-- Preview -->
-
-  <!-- Gabrielle Essence Eau De Parfum -->
-
-  <!-- A floral, solar and voluptuous interpretation composed by Olivier Polge,  -->
-  <!-- Perfumer-Creator for the House of CHANEL. -->
-
-  <!-- $149.99 -->
-  <!-- $169.99 -->
-
-  <!-- Add to Cart -->
-  
-  <div class="attribution">
+  <header>
+    <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/Fabiola971">Fabiola Barul</a>.
-  </div>
-  <div class="container">
-    <div class="picture">
-      <!-- <img src="images/image-product-mobile.jpg" alt=""> -->
     </div>
-    <div class="description">
-      <p>perfume</p>
-      <h2>Gabrielle Essence Eau <span>De Parfum</span></h2>
-      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+  </header>
+  <main>
+    <div class="container">
+      <div class="picture">
+      </div>
+      <div class="description">
+        <p>perfume</p>
+        <h2>Gabrielle Essence Eau <span>De    Parfum</span></h2>
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
       <p>$149.99</p>
-      <a href="#"><button><svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>Add to Cart</button></a>
+        <button type="submit"><svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/></svg>Add to Cart</button>
     </div>
   </div>
+</main>
 </body>
 </html>
